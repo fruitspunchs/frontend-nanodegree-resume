@@ -39,7 +39,7 @@ var bio = {
             }
         }
     },
-    'displayContanctFooter': function displayContanctFooter() {
+    'displayContactFooter': function displayContactFooter() {
         var formattedEmail = HTMLemail.replace('%data%', bio.contacts.email);
         $('#footerContacts').append(formattedEmail);
         var formattedMobile = HTMLmobile.replace('%data%', bio.contacts.mobile);
@@ -48,7 +48,7 @@ var bio = {
 }
 
 bio.display();
-bio.displayContanctFooter();
+bio.displayContactFooter();
 
 var work = {
     'jobs': [{
